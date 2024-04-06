@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2532;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.post h1 {
+    color: #333;
+}
+
+.meta {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.featured-image img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1f2532;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.author-avatar {
+    width: 40px; /* Defina o tamanho da imagem conforme necessário */
+    height: 40px;
+    border-radius: 50%; /* Isso tornará a imagem redonda */
+    margin-right: 10px; /* Ajuste conforme necessário para o espaçamento entre a imagem e o texto */
+}
